@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zayWeb</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/icons/OIP.jpeg" alt="LOGO" class="logo-img" />
+        <h1 class="logo-title">ZAY X</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">FOLLOW ME</button>
+    </header>
+
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hello, this is Zharaul Web</p>
+        <p class="description">Student from YARSI UNIVERSITY</p>
+        <img class="img-foto" src="assets/img/1.png" alt="" />
+      </div>
+    </div>
+    <div class="paralax">
+      <div class="tentang">
+        <p class="title">Calon Programer Handal</p>
+        <p class="description">Ngoding aja dulu, jagonya belakangan</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsap()">TESTING</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card" id="about">
+          <div class="card-item">
+            <img src="assets/icons/24-hours.png" alt="" class="icon" />
+            <p class="card-title">Proses lebih dari 24 jam</p>
+            <p class="card-description">
+              Untuk membuat website yang sederhana seperti ini saja saya perlu
+              24 jam lebih.
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icons/wrench.png" alt="" class="icon" />
+            <p class="card-title">Melawan rasa malas</p>
+            <p class="card-description">
+              Demi bisa menjadi Programmer Profesional saya bahkan melawan rasa
+              malas saya untuk bisa belajar.
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icons/rating.png" alt="" class="icon" />
+            <p class="card-title">Kritik dan saran</p>
+            <p class="card-description">
+              Agar bisa menjadi programmer jauh lebih baik lagi, saya perlu
+              kritik dan saran dari anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="title">&copyazharaulweb2024</p>
+    </footer>
+
+    <script>
+      function redirInstagram() {
+        window.location.href = "https://instagram.com/azharaul_";
+      }
+      function redirWhatsap() {
+        window.location.href = "wa.me/+6281398923510";
+      }
+    </script>
+  </body>
+</html>
